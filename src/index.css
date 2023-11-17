@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width: 321px){
+    .cont-1{
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+    }
+}
+body {
+    background-color: rgb(32, 44, 55);
+}
+
+h1 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+span {
+    font-weight: 400;
+
+}
+
+.info-box {
+    background-color: rgb(43, 57, 69);
+    color: rgb(255, 255, 255);
+    height: 200px;
+}
+
+.mein-box {
+    border-radius: 8px;
+    background-color: rgb(43, 57, 69);
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, .3);
+    height: 320px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.mein-box:hover {
+   
+   transition: .3s;
+      transform: translateY(-10px);
+   
+    
+}
+
+.mein-box img {
+    display: block;
+
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
